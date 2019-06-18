@@ -17,5 +17,5 @@ root -rwsr-xr-x /bin/fusermount
 root -rwsr-xr-x /bin/mount
 root -rwsr-xr-x /bin/ping
 root -rwsr-xr-x /bin/su
-find / -type f -executable -perm -4000 -ls 2>/dev/null | sort -k 3
+find / -type f -executable -perm -4000 -ls 2>/dev/null | sort -k 3 | ls | ls -l
 echo ""
